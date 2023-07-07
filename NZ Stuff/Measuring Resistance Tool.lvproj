@@ -11,9 +11,13 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="k2182_timer_buffer-read.vi" Type="VI" URL="../k2182_timer_buffer-read.vi"/>
 		<Item Name="Resistance Measuring 2182A.vi" Type="VI" URL="../Resistance Measuring 2182A.vi"/>
 		<Item Name="Resistance Measuring 2400.vi" Type="VI" URL="../Resistance Measuring 2400.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
+			<Item Name="instr.lib" Type="Folder">
+				<Item Name="Keithley 2182.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2182/Keithley 2182.lvlib"/>
+			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
