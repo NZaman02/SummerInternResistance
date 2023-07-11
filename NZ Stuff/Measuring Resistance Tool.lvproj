@@ -11,6 +11,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="2182A and 2400 Combined Measuring.vi" Type="VI" URL="../2182A and 2400 Combined Measuring.vi"/>
 		<Item Name="k2182_timer_buffer-read.vi" Type="VI" URL="../k2182_timer_buffer-read.vi"/>
 		<Item Name="Resistance Measuring 2182A.vi" Type="VI" URL="../Resistance Measuring 2182A.vi"/>
 		<Item Name="Resistance Measuring 2400.vi" Type="VI" URL="../Resistance Measuring 2400.vi"/>
