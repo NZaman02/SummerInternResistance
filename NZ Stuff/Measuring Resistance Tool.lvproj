@@ -15,6 +15,7 @@
 		<Item Name="k2182_timer_buffer-read.vi" Type="VI" URL="../k2182_timer_buffer-read.vi"/>
 		<Item Name="Resistance Measuring 2182A.vi" Type="VI" URL="../Resistance Measuring 2182A.vi"/>
 		<Item Name="Resistance Measuring 2400.vi" Type="VI" URL="../Resistance Measuring 2400.vi"/>
+		<Item Name="Testing Trigger.vi" Type="VI" URL="../Testing Trigger.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="instr.lib" Type="Folder">
 				<Item Name="Keithley 2182.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2182/Keithley 2182.lvlib"/>
@@ -42,7 +43,7 @@
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
-				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
+				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
@@ -56,6 +57,7 @@
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Keithley 24XX.lvlib"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
