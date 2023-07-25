@@ -13,13 +13,13 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="2182A and 2400 Combined Measuring.vi" Type="VI" URL="../2182A and 2400 Combined Measuring.vi"/>
 		<Item Name="k2182_timer_buffer-read.vi" Type="VI" URL="../k2182_timer_buffer-read.vi"/>
+		<Item Name="Keithley 2182.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2182/Keithley 2182.lvlib"/>
 		<Item Name="Resistance Measuring 2182A.vi" Type="VI" URL="../Resistance Measuring 2182A.vi"/>
 		<Item Name="Resistance Measuring 2400.vi" Type="VI" URL="../Resistance Measuring 2400.vi"/>
 		<Item Name="Testing Trigger.vi" Type="VI" URL="../Testing Trigger.vi"/>
+		<Item Name="Visa Write Trigger.vi" Type="VI" URL="../Visa Write Trigger.vi"/>
+		<Item Name="Visa Write V2.vi" Type="VI" URL="../Visa Write V2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Item Name="instr.lib" Type="Folder">
-				<Item Name="Keithley 2182.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2182/Keithley 2182.lvlib"/>
-			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
@@ -46,14 +46,17 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Search and Replace Pattern.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Search and Replace Pattern.vi"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
 				<Item Name="Set Bold Text.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set Bold Text.vi"/>
 				<Item Name="Set String Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Set String Value.vi"/>
 				<Item Name="Simple Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Simple Error Handler.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
 				<Item Name="Three Button Dialog CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog CORE.vi"/>
 				<Item Name="Three Button Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Three Button Dialog.vi"/>
 				<Item Name="Trim Whitespace One-Sided.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace One-Sided.vi"/>
 				<Item Name="Trim Whitespace.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Trim Whitespace.vi"/>
+				<Item Name="Wait for RQS.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
 			<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Keithley 24XX.lvlib"/>
