@@ -11,12 +11,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="2182A and 2400 Combined Measuring.vi" Type="VI" URL="../2182A and 2400 Combined Measuring.vi"/>
+		<Item Name="2182A and 2400 Combined Measuring V2.vi" Type="VI" URL="../2182A and 2400 Combined Measuring V2.vi"/>
 		<Item Name="k2182_timer_buffer-read.vi" Type="VI" URL="../k2182_timer_buffer-read.vi"/>
+		<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../../Keithley 24XX Sweep and Acquire Measurements Folder/Keithley 24XX.lvlib"/>
 		<Item Name="Keithley 2182.lvlib" Type="Library" URL="/&lt;instrlib&gt;/Keithley 2182/Keithley 2182.lvlib"/>
+		<Item Name="OLD 2182A and 2400 Combined Measuring.vi" Type="VI" URL="../OLD 2182A and 2400 Combined Measuring.vi"/>
 		<Item Name="Resistance Measuring 2182A.vi" Type="VI" URL="../Resistance Measuring 2182A.vi"/>
 		<Item Name="Resistance Measuring 2400.vi" Type="VI" URL="../Resistance Measuring 2400.vi"/>
 		<Item Name="Testing Trigger.vi" Type="VI" URL="../Testing Trigger.vi"/>
+		<Item Name="Trigger With SubVi.vi" Type="VI" URL="../Trigger With SubVi.vi"/>
+		<Item Name="Visa Write And SubVi.vi" Type="VI" URL="../Visa Write And SubVi.vi"/>
 		<Item Name="Visa Write Trigger.vi" Type="VI" URL="../Visa Write Trigger.vi"/>
 		<Item Name="Visa Write V2.vi" Type="VI" URL="../Visa Write V2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -25,6 +29,7 @@
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
+				<Item Name="Delimited String to 1D String Array.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Delimited String to 1D String Array.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
@@ -59,8 +64,14 @@
 				<Item Name="Wait for RQS.vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Wait for RQS.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="Keithley 24XX.lvlib" Type="Library" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Keithley 24XX.lvlib"/>
+			<Item Name="Close.vi" Type="VI" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Public/Close.vi"/>
+			<Item Name="Configure Measurement.vi" Type="VI" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Public/Configure/Configure Measurement.vi"/>
+			<Item Name="Configure Output.vi" Type="VI" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Public/Configure/Configure Output.vi"/>
+			<Item Name="Enable Output.vi" Type="VI" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Public/Action-Status/Enable Output.vi"/>
+			<Item Name="Initialize.vi" Type="VI" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Public/Initialize.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Read (Single Point).vi" Type="VI" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Public/Data/Read (Single Point).vi"/>
+			<Item Name="Read.vi" Type="VI" URL="../../../2022 MPhys Project/Keithley 24XX Sweep and Acquire Measurements Folder/Public/Data/Read.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
